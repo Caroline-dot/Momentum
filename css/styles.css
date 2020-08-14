@@ -1,17 +1,22 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "/base";
- *   |         ^^^^^^^
- *   '
- *   scss\styles.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"/base\";\d\a   \2502          ^^^^^^^\a   \2575 \a   scss\\styles.scss 1:9  root stylesheet";
+body {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f1f5f8;
+  text-align: center;
+  color: #666667;
 }
+
+p {
+  line-height: 1.3em;
+}
+
+header {
+  background-image: url(/images/bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */

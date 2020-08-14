@@ -1,10 +1,31 @@
 //Variables
+$color-bg: #f1f5f8;
+$color-text: #666667;
+$color-btn: #6e87fb;
+$color-shadow1:  #939394;
+$color-shadow2:  #b6b6b8;
+$color-shadow3:  #d7d7d8;
 
+//Base
+body {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    background-color: $color-bg;
+    text-align: center;
+    color: $color-text;
+}
 
+p   {
+    line-height: 1.3em; 
+}
 
-
+header {
+    background-image: url(/images/bg.jpg);
+    background-repeat: no-repeat;
+}   background-position: bottom;
 
 //Typography
+
 
 
 
