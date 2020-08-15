@@ -1,4 +1,5 @@
 //Variables
+$white: #fff;
 $color-bg: #f1f5f8;
 $color-text: #666667;
 $color-btn: #6e87fb;
@@ -8,7 +9,7 @@ $color-shadow3:  #d7d7d8;
 
 //Base
 body {
-    margin: 0 auto;
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: $color-bg;
     text-align: center;
@@ -16,13 +17,25 @@ body {
 }
 
 p   {
-    line-height: 1.3em; 
+    line-height: 1.3em;
+    text-align: justify;
 }
 
 header {
+    max-width: 1000px;
+    height: 250px;
     background-image: url(/images/bg.jpg);
+    background-size: 1000px;
     background-repeat: no-repeat;
-}   background-position: bottom;
+    background-position: center;
+}
+
+.info   {
+    margin: auto;
+    width: 600px;
+    
+}
+
 
 //Typography
 

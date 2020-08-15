@@ -1,5 +1,5 @@
 body {
-  margin: 0 auto;
+  margin: 0;
   font-family: "Open Sans", sans-serif;
   background-color: #f1f5f8;
   text-align: center;
@@ -8,11 +8,21 @@ body {
 
 p {
   line-height: 1.3em;
+  text-align: justify;
 }
 
 header {
+  max-width: 1000px;
+  height: 250px;
   background-image: url(/images/bg.jpg);
+  background-size: 1000px;
   background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info {
+  margin: auto;
+  width: 600px;
 }
 
 .container {
