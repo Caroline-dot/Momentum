@@ -9,9 +9,8 @@ $color-shadow3:  #d7d7d8;
 
 //Base
 body {
-    margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: $color-bg;
+    background-color: $white;
     text-align: center;
     color: $color-text;
 }
@@ -22,12 +21,10 @@ p   {
 }
 
 header {
-    max-width: 1000px;
-    height: 250px;
-    background-image: url(/images/bg.jpg);
-    background-size: 1000px;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: $color-text;
+    margin: auto;
+    max-width: 1024px;
+    height: 250px; 
 }
 
 .info   {

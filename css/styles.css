@@ -1,7 +1,6 @@
 body {
-  margin: 0;
   font-family: "Open Sans", sans-serif;
-  background-color: #f1f5f8;
+  background-color: #fff;
   text-align: center;
   color: #666667;
 }
@@ -12,12 +11,10 @@ p {
 }
 
 header {
-  max-width: 1000px;
+  background-color: #666667;
+  margin: auto;
+  max-width: 1024px;
   height: 250px;
-  background-image: url(/images/bg.jpg);
-  background-size: 1000px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .info {
@@ -25,8 +22,30 @@ header {
   width: 600px;
 }
 
+form {
+  width: 30%;
+  margin: auto;
+  background-color: #fff;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  display: none;
+}
+
+header {
+  background: url(../images/bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
 .container {
   margin: 0 auto;
+  max-width: 1024px;
+  height: 940px;
+  background-color: #f1f5f8;
 }
 
 /*# sourceMappingURL=styles.css.map */

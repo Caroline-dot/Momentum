@@ -7,7 +7,19 @@
 
 
 //Form
+form   {
+    width: 30%;
+    margin: auto;
+    background-color: $white;
+}
 
+fieldset    {
+    border: none;
+}
+
+legend  {
+    display: none;
+}
 
 // input  {
 //     box-shadow:  2px  2px 4px 0px $color-shadow-1, 
@@ -16,7 +28,9 @@
 // }
 
 //Image
-
-
+header {
+    background: url(../images/bg.jpg) no-repeat center;
+    background-size: cover;
+}
 
 //Media Queries
